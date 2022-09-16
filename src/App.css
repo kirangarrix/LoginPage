@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Headline{
+  padding-top: 6rem;
+  padding-left: 3rem;
+}
+.app{
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  height: 100vh;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(12, 6, 128) 0%, rgba(9,121,108,1) 35%, rgba(0,212,255,1) 100%) ;
+  background-size: cover;
+  background-position:center;
+}
+
+form{
+  /* background-color: white; */
+  padding: 31px 24px;
+  border-radius: 10px;
+  /* my try */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  position: absolute;
+  right: 5rem;
+  top: 14rem;
+}
+
+h1{
+  color: rgb(3, 3, 3);
+}
+
+button{
+  width: 100%;
+  height: 34px;
+  padding: 10px;
+  border: none;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  /* font-weight: bold; */
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+a{
+  font-size: 12px;
+  float: right;
+}
